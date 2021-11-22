@@ -9,7 +9,7 @@
 > - we will use "simple react snnipets" vs code extension to make it easy [Read more](https://www.digitalocean.com/community/posts/write-react-faster-with-simple-react-snippets)
 > - we will use bootstrap css framework [Read more](https://websuggestion.com/why-bootstrap-is-better-than-css/)
 
-## 1- First we will download node js we will need him in npm to create react app
+## 1- First we will download node js which will need him in npm to create react app
  **Windows** [Download](https://nodejs.org/dist/v16.13.0/node-v16.13.0-x64.msi) <br>
  after download setup the program <br>
  
