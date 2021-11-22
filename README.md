@@ -58,13 +58,16 @@ Go to extensions click ctrl + shift + x:
 serach "simple react snnipets" and install it 
 
 ## 6- Import bootstrap 
-git back to explorer click ctrl + shift + E , go to the src folder to index.js file write inside him 
+git back to explorer click ctrl + shift + E , go to the src folder to index.js file type inside him 
 ```python
 import "bootstrap/dist/css/bootstrap.css";
 ```
 > _**NOTE:**_ now we will create counter ,import him and use it instead app then return app in counters 
 ## 7- Create counter file 
 in src folder create new folder name him "components"
-inside components create a new file 
+inside components create a new file name him "counter.jsx" 
+now inside him type 
+```javascript 
+```
 
 
