@@ -68,6 +68,12 @@ in src folder create new folder name him "components"
 inside components create a new file name him "counter.jsx" 
 now inside him type 
 ```javascript 
+imrc 
+cc
 ```
+imrc to import react component 
+cc to class component 
+## 8- 
+
 
 
