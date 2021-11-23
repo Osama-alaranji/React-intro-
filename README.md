@@ -73,7 +73,35 @@ cc
 ```
 imrc to import react component 
 cc to class component 
-## 8- 
+now our code will be like this 
+```python 
+import React, { Component } from 'react';
+
+
+class  extends React.Component {
+    render() { 
+        return <div></div>;
+    }
+}
+ 
+export default ;
+```
+## 8- Now we'll name the class : 
+class name after class and after export default 
+look to the new code 👀 :
+```python 
+class Counter extends React.Component {
+    render() { 
+        return <div></div>;
+    }
+}
+ 
+export default Counter ;
+``` 
+## 9- Now if we want to show our content in page we must write in render function and return our data:
+
+
+
 
 
 
