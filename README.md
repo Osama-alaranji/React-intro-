@@ -1,13 +1,15 @@
 ## Ya welcome , we will explain how to get started with React  how to make a counter in react
 ---------------------------------------------------------------
 > **_NOTE:_** 
-> - React is a javascript library and use jsx extension for her files [Read more](https://www.geeksforgeeks.org/jsx-full-form/)<br>
-> - React create a single page application [Read more ](https://en.wikipedia.org/wiki/Single-page_application)
+> - React is a javascript library and use jsx extension for her files [Read more](https://www.geeksforgeeks.org/jsx-full-form/)<br>.
+> - React create a single page application [Read more ](https://en.wikipedia.org/wiki/Single-page_application).
 > - For linux to get full permissions (root) in terminal: sudo su -
-> - className attribute in react used instead of class [Read more ](https://www.geeksforgeeks.org/why-react-uses-classname-over-class-attribute/)
-> - in this explanation we will use vs code editor 
-> - we will use "simple react snnipets" vs code extension to make it easy [Read more](https://www.digitalocean.com/community/posts/write-react-faster-with-simple-react-snippets)
-> - we will use bootstrap css framework [Read more](https://websuggestion.com/why-bootstrap-is-better-than-css/)
+> - className attribute in react used instead of class [Read more ](https://www.geeksforgeeks.org/why-react-uses-classname-over-class-attribute/).
+> - in this explanation we will use vs code editor .
+> - we will use "simple react snnipets" vs code extension to make it easy [Read more](https://www.digitalocean.com/community/posts/write-react-faster-with-simple-react-snippets).
+> - we will use bootstrap css framework [Read more](https://websuggestion.com/why-bootstrap-is-better-than-css/).
+> - when are you running server the page will refersh automatically when you edit any thing in code
+> - and will give you if there was any error in the code in the console .
 
 ## 1- First we will download node js which will need him in npm to create react app
  **Windows** [Download](https://nodejs.org/dist/v16.13.0/node-v16.13.0-x64.msi) <br>
@@ -139,7 +141,22 @@ export default Counter ;
   ## now we will run the server and see the counter page 
   open terminal in this app  as we do it before and type :
    `npm start`
-   
+   now we will get back to counter.jsx file 
+  ## 11- Make the counter alive (make the functions)
+  first we will put default value in span (in page)
+  so in Counter class add this 
+  ```python 
+  state = {
+        count: 0
+    };
+   ```
+  then go to span tag  replace zero and type : 
+  ```html
+      <span className="badge bg-primary m-2"> {this.state.count}</span>
+  ```
+  
+  the first function is Increment which will increase the number
+  
 
 
 
