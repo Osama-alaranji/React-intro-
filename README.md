@@ -116,8 +116,8 @@ export default Counter ;
 ```
 ## Style By bootstrap 
 ```html 
-   <button className="btn btn-secondary btn-sm">Increment </button>
-   <span   className="badge m-2 bg-primary"> 0 </span>
+        <span   className="badge bg-primary m-2"> 0 </span>
+        <button className="btn btn-secondary">Increment </button>
 ```
 ## 10- --Cross step-- We want to show our page and what is going on 
   in src folder in index.js file (where we import bootstrap )<br>
