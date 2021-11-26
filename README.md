@@ -19,7 +19,7 @@
  sudo apt install npm 
  ```
  ## 2- We will install create-react-app package
- in terminal(cmd) write 
+ in terminal(cmd) type
  ```bash
  npm i -g create-react-app
  # npm : node js package manager
@@ -27,7 +27,7 @@
  # -g : global to install create-react-app
  
  ```
- ## Now we will create first first-app in terminal :
+ ## Now we will create  first-app in terminal :
  ```bash
  create-react-app first-app 
  ```
@@ -54,11 +54,11 @@ code .
 # you can use your editior 
 # code . mean open visual code in same file 
 ```
-Go to extensions click ctrl + shift + x:
+Go to extensions click `ctrl` `+` `shift` `+` `x`:
 serach "simple react snnipets" and install it 
 
 ## 6- Import bootstrap 
-git back to explorer click ctrl + shift + E , go to the src folder to index.js file type inside him 
+git back to explorer click `ctrl` `+` `shift` `+` `E` , go to the src folder to index.js file type inside him 
 ```python
 import "bootstrap/dist/css/bootstrap.css";
 ```
@@ -99,8 +99,47 @@ class Counter extends React.Component {
 export default Counter ;
 ``` 
 ## 9- Now if we want to show our content in page we must write in render function and return our data:
+we need an increment button and span to show the number 
+html structure 
+```python 
 
-
+class Counter extends React.Component {
+    render() { 
+        return <div>
+            <button>Increment </button>
+            <span> 0 </span>
+        </div>;
+    }
+}
+ 
+export default Counter ;
+```
+## Style By bootstrap 
+```html 
+   <button className="btn btn-secondary btn-sm">Increment </button>
+   <span   className="badge m-2 bg-primary"> 0 </span>
+```
+## 10- --Cross step-- We want to show our page and what is going on 
+  in src folder in index.js file (where we import bootstrap )<br>
+  comment importing app class (we comment it just for now we will use it later )
+  ```javascript
+   // import App from './App';
+   ```
+   import our Counter (counter class )
+   ```javascript
+   import Counter from './components/counter';
+   ```
+   between react.strictmode replace app and type Counter 
+   `don't forget captalize c `
+   ```javascript 
+   <React.StrictMode>
+    <Counter/>
+  </React.StrictMode>,
+  ``` 
+  ## now we will run the server and see the counter page 
+  open terminal in this app  as we do it before and type :
+   `npm start`
+   
 
 
 
